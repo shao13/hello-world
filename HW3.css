@@ -17,6 +17,11 @@
 	font-family: "Comic Sans MS",Georgia,Times New Roman;
 }
 
+#name:hover
+{
+	color: #ff69b4;
+}
+
 #index
 {
 	float:right;
@@ -64,6 +69,7 @@
 {
 	width:30%;
 	padding-right: 90px;
+	margin-left: 20px;
 }
 
 .topic
@@ -74,32 +80,47 @@
 	padding-top: 50px;
 }
 
+.sub_topic
+{
+	text-align:left;
+	font-family: "Comic Sans MS",Georgia,Times New Roman;
+	color: orange;
+}
+
 .text
 {
+	font-size: 1.2em;
 	text-indent: 40px;
 	font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", "細明體", "MingLiU", "標楷體", "DFKai-sb", serif;
 }
 
-#educations
+#profile
 {
 	background-color: rgba(0,0,0,0.1);
 	box-shadow: 0 0 20px 10px rgba(0,0,0,0.1);
 }
 
+.profile_txt
+{
+	font-size: 1.2em;
+	font-family: "Comic Sans MS",Georgia,Times New Roman;
+	text-indent: 15px;
+}
+
 #educations ul li
 {
-	font-size: 2em;
-	font-family: "Georgia",Times New Roman;
+	font-size: 1.2em;
+	font-family: "Comic Sans MS",Georgia,Times New Roman;
 	font-style: bold;
 }
 
 #educations ul li a
 {
-	font-size: 1em;
-	font-family: "Georgia",Times New Roman;
+	font-size: 1.2em;
+	font-family: "Comic Sans MS",Georgia,Times New Roman;
 	font-style: italic;
 	text-decoration:none;
-	color: orange;
+	color: blue;
 }
 
 
@@ -108,19 +129,10 @@
 	color: purple;
 }
 
-.button
+#experiences
 {
-	background-color: white;
-	border: none;
-	font-size: 1em;
-	font-family: "Comic Sans MS",Georgia,Times New Roman;
-}
-
-.experience_text
-{
-	text-align:left;
-	text-indent: 40px;
-	font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", "細明體", "MingLiU", "標楷體", "DFKai-sb", serif;
+	background-color: rgba(0,0,0,0.5);
+	box-shadow: 0 0 20px 10px rgba(0,0,0,0.5);
 }
 
 .table_content
@@ -128,6 +140,14 @@
 	width: 50%;
 	float: left;
 	padding-left: 90px;
+	margin-top: 20px;
+}
+
+.profile_content
+{
+	width: 50%;
+	padding-left: 90px;
+	margin-top: 20px;	
 }
 
 .table_image
@@ -135,4 +155,5 @@
 	width:30%;
 	padding-left: 10px;
 	margin-right: 5px;
+	margin-top: 20px;
 }
